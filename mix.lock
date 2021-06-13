@@ -1,0 +1,15 @@
+%{
+  "axon": {:git, "https://github.com/elixir-nx/axon.git", "29141b3732e509ffeb2101bffb3044d1e74dbd96", [branch: "main"]},
+  "csv": {:hex, :csv, "2.4.1", "50e32749953b6bf9818dbfed81cf1190e38cdf24f95891303108087486c5925e", [:mix], [{:parallel_stream, "~> 1.0.4", [hex: :parallel_stream, repo: "hexpm", optional: false]}], "hexpm", "54508938ac67e27966b10ef49606e3ad5995d665d7fc2688efb3eab1307c9079"},
+  "elixir_make": {:hex, :elixir_make, "0.6.2", "7dffacd77dec4c37b39af867cedaabb0b59f6a871f89722c25b28fcd4bd70530", [:mix], [], "hexpm", "03e49eadda22526a7e5279d53321d1cced6552f344ba4e03e619063de75348d9"},
+  "erlsom": {:hex, :erlsom, "1.5.0", "c5a5cdd0ee0e8dca62bcc4b13ff08da24fdefc16ccd8b25282a2fda2ba1be24a", [:rebar3], [], "hexpm", "55a9dbf9cfa77fcfc108bd8e2c4f9f784dea228a8f4b06ea10b684944946955a"},
+  "exla": {:git, "https://github.com/elixir-nx/nx.git", "c1e15082e8cb31bfacee3f42e9fc44096e301b46", [sparse: "exla"]},
+  "mogrify": {:hex, :mogrify, "0.8.0", "3506f3ca3f7b95a155f3b4ef803b5db176f5a0633723e3fe85e0d6399e3b11c8", [:mix], [], "hexpm", "2278d245f07056ea3b586e98801e933695147066fa4cf563f552c1b4f0ff8ad9"},
+  "nimble_csv": {:hex, :nimble_csv, "1.1.0", "b1dba4a86be9e03065c9de829050468e591f569100332db949e7ce71be0afc25", [:mix], [], "hexpm", "e986755bc302832cac429be6deda0fc9d82d3c82b47abefb68b3c17c9d949a3f"},
+  "nx": {:git, "https://github.com/elixir-nx/nx.git", "c1e15082e8cb31bfacee3f42e9fc44096e301b46", [sparse: "nx"]},
+  "parallel_stream": {:hex, :parallel_stream, "1.0.6", "b967be2b23f0f6787fab7ed681b4c45a215a81481fb62b01a5b750fa8f30f76c", [:mix], [], "hexpm", "639b2e8749e11b87b9eb42f2ad325d161c170b39b288ac8d04c4f31f8f0823eb"},
+  "pixels": {:hex, :pixels, "0.1.2", "0de6fb5529b7490fdd35a43b7c0952b63bb6f2c1c07b0a96ecdcd998e18bb0e6", [:make, :mix], [{:elixir_make, "~> 0.6.0", [hex: :elixir_make, repo: "hexpm", optional: false]}], "hexpm", "87d9d5599aca59774b90399c9acd092b43fab955cfce7d8555563407a787b23b"},
+  "scidata": {:hex, :scidata, "0.1.1", "9cd4f5197dd602ac83ddf18c850220fa5e5a81a4fb3911cac01a2508ca4ce29d", [:mix], [], "hexpm", "e8f176dfdd08f122238214540291e33051ac82b2bee71262c7674fb6e3131be0"},
+  "table_rex": {:hex, :table_rex, "3.1.1", "0c67164d1714b5e806d5067c1e96ff098ba7ae79413cc075973e17c38a587caa", [:mix], [], "hexpm", "678a23aba4d670419c23c17790f9dcd635a4a89022040df7d5d772cb21012490"},
+  "xlsxir": {:hex, :xlsxir, "1.6.4", "d1e69439cbd9edc1190950f9f883ac364e1f31641e0395ccdb27761791b169a3", [:mix], [{:erlsom, "~> 1.5", [hex: :erlsom, repo: "hexpm", optional: false]}], "hexpm", "38e91f65eb8a4c8dea07d941c8b7e21baf8c8d4938232395c9ffd19d2eb071f2"},
+}
