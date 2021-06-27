@@ -26,7 +26,7 @@ defmodule NxCnn.MixProject do
       {:exla, "~> 0.1.0-dev", github: "elixir-nx/nx", sparse: "exla", override: true},
       {:nx, "~> 0.1.0-dev", github: "elixir-nx/nx", sparse: "nx", override: true},
       {:mogrify, "~> 0.8.0"},
-      {:pixels, "~> 0.1.0"},
+      {:pixels, "~> 0.2.0"},
       {:csv, "~> 2.4"},
       {:xlsxir, "~> 1.6.4"}
       # {:dep_from_hexpm, "~> 0.3.0"},
